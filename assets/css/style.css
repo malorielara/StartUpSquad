@@ -1,7 +1,6 @@
 header {
     background-color: transparent;
     position: fixed;
-
 }
 
 body {
@@ -55,7 +54,7 @@ h4, h6 {
 .footer {
     position: fixed;
     padding-top: 1%;
-    
+    background-color: lightgrey;
 }
 
 .container {
