@@ -21,6 +21,10 @@ body {
     color: whitesmoke;
 }
 
+.navigation {
+    position: right;
+
+}
 
 h1,
 h2,
