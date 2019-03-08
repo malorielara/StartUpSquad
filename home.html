@@ -10,45 +10,33 @@
     crossorigin="anonymous">
 <link href="assets/css/style.css" rel="stylesheet">
 
-<header class="masthead bg-transparent text-warning text-center">
+<header class="masthead bg-transparent text-warning text-center col-lg-12">
     <div class="container">
-        
-        <h1>
-            <img src="assets/images/balloon.png" class="logo-img float-left" alt="balloon.png">
 
-            START up SQUAD
+        <a href="home.html"><img src="assets/images/balloon.png" class="logo-img float-left" alt="balloon.png"></a>
+
+        <h1>START up SQUAD</h1>
 
         <nav class="navbar navbar-default navbar-inverse float-right" role="navigation">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="#">Log In</a>
-                </div>
+                    <!-- <a class="navbar-brand" href="#">Log In</a> -->
+                    <button class="btn btn-light dropdown-toggle float-right" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Log In!
+                    </button>
+                <!-- </div> -->
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="#">Link</a></li>
                         <li><a href="#">Link</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></a>
-                            <ul class="dropdown-menu" role="menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something else here</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
-                                <li class="divider"></li>
-                                <li><a href="#">One more separated link</a></li>
                             </ul>
                         </li>
                     </ul>
-                    <form class="navbar-form navbar-left" role="search">
-                        <div class="form-group">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
                     <ul class="nav navbar-nav navbar-right">
                         <li>
                             <p class="navbar-text">Already have an account?</p>
@@ -59,12 +47,6 @@
                                 <li>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            Login via
-                                            <div class="social-buttons">
-                                                <a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
-                                                <a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
-                                            </div>
-                                            or
                                             <form class="form" role="form" method="post" action="login" accept-charset="UTF-8"
                                                 id="login-nav">
                                                 <div class="form-group">
@@ -97,9 +79,12 @@
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
+                </div>
             </div><!-- /.container-fluid -->
         </nav>
-    </h1>
+
+        <!-- </h1> -->
+
         <!-- <img class="img-fluid mb-5 d-block mx-auto square" src="assets/images/sus.png" alt=""> -->
         <!-- <h1 class="text-uppercase mb-0">Start Up Squad</h1> -->
         <!-- <button type="button" class="btn btn-dark">Log In</button> -->
@@ -147,7 +132,7 @@
                 </div>
               </div> -->
 
-              <br>
+        <br>
         <div class="card  text-center col-md-2 col-md-4 mx-auto">
             <div class="card-body">
                 <h5 class="card-title">BIO</h5>
@@ -168,7 +153,7 @@
                     </div> -->
         </div>
         </div>
-        </section> -->
+        </section>
 
     </body>
 
@@ -179,7 +164,8 @@
             <div class="row">
                 <div class="col-md-12 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-6 text-black text-center">**Quotes go here**</h4>
-                    <p class="lead mb-2 text-black text-center">#SquadUp</p>
+                    <h6 class="text-uppercase mb-6 text-black text-center">#SquadUp</h6>
+                    <!-- <p class="lead mb-2 text-black text-center">#SquadUp</p> -->
                     <p><a href="contact.html" class="text-muted text-center">Contact</a></p>
 
                 </div>

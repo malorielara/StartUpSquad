@@ -1,5 +1,7 @@
 header {
     background-color: transparent;
+    position: fixed;
+
 }
 
 body {
@@ -12,6 +14,10 @@ body {
         
 }
 
+.logo-img {
+    float: left;
+}
+
 .card {
     margin: 0 auto; 
     float: none; 
@@ -19,29 +25,43 @@ body {
     background-color: transparent;
     border-color: transparent;
     color: whitesmoke;
+    text-align: center;
 }
 
 .navigation {
-    position: right;
+    float: right;
 
 }
 
-h1,
+h1 {
+    font-weight: 700;
+    text-align: center;
+    
+}
+
 h2,
 h3,
-h4,
-h5,
-h6 {
+h5 {
     font-weight: 700;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4, h6 {
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
 .footer {
     position: fixed;
     padding-top: 1%;
-    color: slategray;
     
+}
+
+.container {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto 0 auto;
 }
 
 
