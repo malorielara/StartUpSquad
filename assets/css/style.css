@@ -1,3 +1,7 @@
+header {
+    background-color: transparent;
+}
+
 body {
     font-family: 'Lato';
     /* background: url("assets/images/hab1.png"); */
@@ -6,6 +10,15 @@ body {
     /* background-image: url("assets/images/hab2.png"); */
     padding: 50px;
         
+}
+
+.card {
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    color: whitesmoke;
 }
 
 
@@ -19,14 +32,6 @@ h6 {
     font-family: 'Montserrat';
 }
 
-hr.star-light {
-    border-color: #fff;
-}
-
-hr.star-light:after {
-    color: #fff;
-    background-color: #18BC9C;
-}
 
 .footer {
     position: fixed;
