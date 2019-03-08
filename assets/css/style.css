@@ -1,10 +1,11 @@
 header {
     background-color: transparent;
     position: fixed;
+    width: auto 100%;
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* background: url("assets/images/hab1.png"); */
     background-repeat: no-repeat; 
     background-size: 100%;
@@ -15,12 +16,13 @@ body {
 
 .logo-img {
     float: left;
+    position: initial;
 }
 
 .card {
     margin: 0 auto; 
     float: none; 
-    margin-bottom: 10px;
+    margin-bottom: 5%;
     background-color: transparent;
     border-color: transparent;
     color: whitesmoke;
@@ -35,26 +37,46 @@ body {
 h1 {
     font-weight: 700;
     text-align: center;
-    
+    font-size: 65px;
 }
 
 h2,
 h3,
 h5 {
-    font-weight: 700;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-h4, h6 {
     font-weight: 500;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+h4 {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+h6 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
 
 .footer {
     position: fixed;
     padding-top: 1%;
-    background-color: lightgrey;
+    background-color: white;
+    width: auto 100%;
+
+}
+
+.img {
+    position: relative;
+    width: auto 100%;
 }
 
 .container {
