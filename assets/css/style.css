@@ -1,18 +1,32 @@
 header {
-    background-color: transparent;
+    background-color: white;
     position: fixed;
     width: auto 100%;
+    text-align: center;
+    padding-top: 20px;
+
 }
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* background: url("assets/images/hab1.png"); */
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    background: ("assets/images/nine.jpg");
     background-size: 100%;
-    /* background-image: url("assets/images/hab2.png"); */
-    padding: 50px;
-        
+    /* padding: 50px; */
+    background-color: white;
+
 }
+
+/* two ideas that suck/dont work for background image?? */
+
+/* #background {
+    background-repeat: no-repeat;
+} */
+
+/* 
+.card-body {
+    background: url("assets/images/nine.jpg");
+} */
 
 .logo-img {
     float: left;
@@ -20,8 +34,8 @@ body {
 }
 
 .card {
-    margin: 0 auto; 
-    float: none; 
+    margin: 0 auto;
+    float: none;
     margin-bottom: 5%;
     background-color: transparent;
     border-color: transparent;
@@ -48,7 +62,7 @@ h5 {
 }
 
 h4 {
-    
+
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -66,8 +80,9 @@ p {
     text-align: center;
 }
 
-.footer {
+#footer {
     position: fixed;
+    text-align: center;
     padding-top: 1%;
     background-color: white;
     width: auto 100%;
@@ -90,7 +105,7 @@ p {
     min-width: 250px;
     padding: 14px 14px 0;
     overflow: hidden;
-    background-color: rgba(255, 255, 255, .8);
+    background-color: red;
 }
 
 #login-dp .help-block {
@@ -98,7 +113,7 @@ p {
 }
 
 #login-dp .bottom {
-    background-color: rgba(255, 255, 255, .8);
+    background-color: red;
     border-top: 1px solid #ddd;
     clear: both;
     padding: 14px;
@@ -117,7 +132,7 @@ p {
 }
 
 .btn-fb {
-    color: #fff;
+    color: red;
     background-color: #3b5998;
 }
 
